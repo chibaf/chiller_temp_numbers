@@ -13,5 +13,5 @@ class mtemp:
     b=line2.split()
     print("measurement temp ",b[1][:-1])
     c=float(b[1][:-2])
-    #d=c+x
+    ser.close()
     return(c)

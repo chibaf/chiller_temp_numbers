@@ -13,5 +13,5 @@ class stemp:
     b=line2.split()
     print("setting temp ",b[1][:-1])
     c=float(b[1][:-2])
-    #d=c+x
+    ser.close()
     return(c)
